@@ -1,0 +1,181 @@
+
+.thumbnail {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	transition:all .2s linear;
+}
+
+.thumbnail:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26);
+}
+
+.products {
+	padding-top: 40px;
+}
+.product {
+	width: 100%;
+	height: 250px;
+	border-radius: 4px / 4px;
+	/*border: 1px solid black;*/
+	transition: all .4s linear;
+	overflow: hidden;
+}
+
+.product img {
+	width: 100%;
+	height: 100%;
+}
+
+.img-info {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: -40px;
+	opacity: 1;
+	transition: all .2s linear;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+.numDestacado {
+	font-size: 20px;
+}
+
+.product:hover .img-info{
+	opacity: 1;
+	top: -100%;
+	background-color: rgba(3, 169, 244, 0.5);
+}
+
+.img-info .img-info-mainTitle{
+	color: white;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+
+.img-general-info {
+	padding-bottom: 10px;
+}
+
+.img-info-title span {
+	vertical-align: middle;
+}
+
+
+.btn-danger {
+  background-image: -webkit-linear-gradient(top,#d9534f 0,#c12e2a 100%);
+  background-image: -o-linear-gradient(top,#d9534f 0,#c12e2a 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#d9534f),to(#c12e2a));
+  background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-color: #b92c28;
+}
+
+.btn-danger:hover {
+	background-image: linear-gradient(to bottom,#FF0700 0,#FF0700 100%);
+}
+
+
+.btn-success {
+	background-image: -webkit-linear-gradient(top,#5cb85c 0,#419641 100%);
+  background-image: -o-linear-gradient(top,#5cb85c 0,#419641 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#5cb85c),to(#419641));
+  background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-color: #3e8f3e;
+}
+
+.btn-success:hover {
+  background-color: #419641;
+  background-position: 0 -15px;
+}
+
+.badge {
+	background-color: #419641;
+}
+.product:hover {
+	background-color: #03A9F4;
+}
+
+.btn-puja {
+	margin: 0 auto;
+	display: block;
+	width: 90px;
+	background-color: #03A9F4;
+}
+
+
+/*input pujar*/
+
+.number-spinner {
+	width: 210px;
+}
+
+
+
+
+
+/*clocks*/
+
+.time {
+	width: 182px;
+	list-style: none;
+	padding-left: 0;
+	margin: 0 auto;
+}
+
+.time-text {
+	width: 180px;
+  	font-size: 12px;
+}
+
+.time li {
+	width: 32%;
+	display: inline-block;
+	text-align: center;
+}
+
+.time li span {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+/*MODAL PUJAR*/
+#modalPuja .modal-footer {
+	border-top:0; 
+}
+#modalPuja .modal-header {
+	border-bottom: 0;
+}
+
+#modalPuja .btn-primary{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+.modal-puja .input-puja {
+	margin: 20px auto !important;
+}
+
+.modal-puja .input-puja label {
+	display: none;
+}
+
+.modal-puja  h3{
+	text-align: center;
+}
+/*MODAL REGISTRAR*/
+.modal-header {
+	border-bottom: 0;
+}
+
+.msg-error {
+	color: red;
+	display: none;
+}
